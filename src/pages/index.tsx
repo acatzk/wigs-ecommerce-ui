@@ -11,10 +11,7 @@ const Index: NextPage = () => {
         <title>Wigs Ecommerce UI</title>
       </Head>
       <Layout>
-        <div
-          className="grid grid-cols-2 gap-4 px-4 py-4 mr-10"
-          style={{ height: '88vh' }}
-        >
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 py-4 mr-0 md:mr-10 h-[200vh] md:h-[88vh]">
           <div className="grid gap-4">
             <div className="grid gap-4">
               <ImageContent src="/svgs/content/promo.svg" />
