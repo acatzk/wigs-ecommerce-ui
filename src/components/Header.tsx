@@ -5,7 +5,7 @@ import { SearchIcon } from '~/utils/Icon'
 
 const Header: React.FC = () => {
   return (
-    <header className="sticky top-0 z-10 flex items-center justify-between px-4 py-8">
+    <header className="sticky top-0 z-10 flex items-center justify-between px-4 pt-8 pb-6">
       <div className="flex items-center space-x-4">
         <SearchIcon className="w-6 h-6" />
         <input
