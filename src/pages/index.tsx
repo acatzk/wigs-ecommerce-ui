@@ -12,7 +12,7 @@ const Index: NextPage = () => {
       </Head>
       <Layout>
         <div
-          className="grid grid-cols-2 gap-4 px-4 py-4"
+          className="grid grid-cols-2 gap-4 px-4 py-4 mr-10"
           style={{ height: '88vh' }}
         >
           <div className="grid gap-4">

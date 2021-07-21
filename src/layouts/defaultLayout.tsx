@@ -14,7 +14,7 @@ const defaultLayout: React.FC = ({ children }) => {
       </div> */}
       <main className="flex bg-white/70 backdrop-blur-md">
         <Sidebar />
-        <section className="flex-1 h-full w-full">
+        <section className="container mx-auto flex-1 h-full w-full">
           <Header />
           {children}
         </section>
