@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import { NextPage } from 'next'
+import Layout from '~/layouts/defaultLayout'
 
 const Index: NextPage = () => {
   return (
@@ -8,7 +9,9 @@ const Index: NextPage = () => {
       <Head>
         <title>Wigs Ecommerce UI</title>
       </Head>
-      <div className="font-bold text-2xl text-purple-600">Hi Gayle</div>
+      <Layout>
+        <div className="font-bold text-2xl text-purple-600">Hi Gayle</div>
+      </Layout>
     </React.Fragment>
   )
 }
