@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { Logo } from '~/utils/Icon'
-import { sidebarLink } from '~/mock/data'
+import { sidebarLinks } from '~/mock/data'
 
 const Sidebar: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ const Sidebar: React.FC = () => {
           <h1 className="text-black text-2xl font-bold">Explore</h1>
           <nav>
             <ul className="space-y-6">
-              {sidebarLink.map(({ icon, title }, i) => (
+              {sidebarLinks.map(({ icon, title }, i) => (
                 <li key={i}>
                   <a
                     href="#"

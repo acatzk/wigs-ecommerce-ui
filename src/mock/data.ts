@@ -1,4 +1,4 @@
-export const sidebarLink = [
+export const sidebarLinks = [
   {
     icon: '/svgs/flash.svg',
     title: 'New In',
@@ -17,7 +17,7 @@ export const sidebarLink = [
   },
   {
     icon: '/svgs/ware.svg',
-    title: 'ware',
+    title: 'Activeware',
   },
   {
     icon: '/svgs/gift.svg',
@@ -26,5 +26,25 @@ export const sidebarLink = [
   {
     icon: '/svgs/diamond.svg',
     title: 'Inspiration',
+  },
+]
+
+interface INavbarLinks {
+  title?: string
+  icon?: string
+}
+
+export const navbarLinks: INavbarLinks[] = [
+  {
+    title: 'products',
+  },
+  {
+    title: 'story',
+  },
+  {
+    title: 'manufacturing',
+  },
+  {
+    title: 'packaging',
   },
 ]
