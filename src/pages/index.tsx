@@ -72,6 +72,9 @@ const ImageContent: React.FC<{ src: string; heart?: boolean | false }> = ({
         layout="fill"
         className="w-full h-full object-cover bg-gray-200"
         alt="promo"
+        blurDataURL="https://onlineimagetools.com/images/examples-onlineimagetools/color-grid.png"
+        placeholder="blur"
+        quality={100}
       />
     </div>
   )

@@ -20,7 +20,13 @@ const Sidebar: React.FC = () => {
                     href="#"
                     className="flex items-center flex-shrink-0 flex-none space-x-4 hover:underline transition ease-in-out duration-150"
                   >
-                    <Image src={icon} width={25} height={25} alt={icon} />
+                    <Image
+                      src={icon}
+                      width={25}
+                      height={25}
+                      alt={icon}
+                      quality={100}
+                    />
                     <h1 className="text-black font-semibold text-sm hidden md:block">
                       {title}
                     </h1>
